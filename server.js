@@ -1,8 +1,7 @@
-const express = require('express');
-const cors = require('cors');
-const fetch = require('node-fetch');
-const { JSDOM } = require('jsdom');
-const app = express();
+import express from 'express';
+import cors from 'cors';
+import fetch from 'node-fetch';
+import { JSDOM } from 'jsdom';
 
 const allowedOrigins = [
   'https://adranalyzer.blogspot.com',
