@@ -3,6 +3,8 @@ import cors from 'cors';
 import fetch from 'node-fetch';
 import { JSDOM } from 'jsdom';
 
+const app = express();
+
 const allowedOrigins = [
   'https://adranalyzer.blogspot.com',
   'https://www.adranalyzer.blogspot.com',
