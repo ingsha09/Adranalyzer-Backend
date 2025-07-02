@@ -4,6 +4,7 @@ import fetch from 'node-fetch';
 import { JSDOM } from 'jsdom';
 
 const app = express();
+const PORT = process.env.PORT || 3000; // Define PORT here. Use environment variable or default to 3000
 
 const allowedOrigins = [
   'https://adranalyzer.blogspot.com',
